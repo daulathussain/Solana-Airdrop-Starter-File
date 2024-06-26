@@ -6,7 +6,7 @@ Building and deploying a Solana Token (SPL) airdrop using Next.js, with step-by-
 
 ## Project Overview
 
-![alt text](https://www.daulathussain.com/wp-content/uploads/2024/06/Build-Deploy-Your-Own-ICO-Marketplace-and-Token-Creator.jpg)
+![alt text](https://www.daulathussain.com/wp-content/uploads/2024/06/Build-and-Deploy-a-Solana-Token-SPL-Airdrop.jpg)
 
 Kindly follow the following Instructions to run the project in your system and install the necessary requirements
 
