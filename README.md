@@ -10,11 +10,11 @@ Building and deploying a Solana Token (SPL) airdrop using Next.js, with step-by-
 
 Kindly follow the following Instructions to run the project in your system and install the necessary requirements
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-and-deploy-blockchain-web3-tools:-next.js-solana-binance-solidity-and-ico-marketplace)
+- [Final Source Code](<https://www.theblockchaincoders.com/sourceCode/build-and-deploy-a-solana-token-(spl)-airdrop>)
 
 #### Setup Video
 
-- [Final Code Setup video](https://youtu.be/0TwuL8V9zUE?si=UFuWkzh-DofBndjp)
+- [Final Code Setup video](https://youtu.be/OAMsBDb84uo?si=onwfg9ttRY49v9_m)
 
 ```https://code.visualstudio.com/download
   WATCH: Setup & Demo Of Project
