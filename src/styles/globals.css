@@ -1,0 +1,187 @@
+@import url("../../public/assets/css/bootstrap.min.css");
+@import url("../../public/assets/css/swiper-bundle.min.css");
+@import url("../../public/assets/css/style.css");
+@import url("../../public/assets/css/aos.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* //LANDING */
+
+.main-container {
+  height: calc(100vh - 85px);
+  align-self: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  height: max-content;
+  justify-self: center;
+  align-self: center;
+  margin-top: 64px;
+}
+
+.searchResultMenu {
+  top: -1px;
+  z-index: 4;
+}
+
+.tabContainer {
+  width: 100%;
+  height: 100%;
+}
+.tabContainer .tabs {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 844px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  letter-spacing: -0.5px;
+  margin-top: 20px;
+}
+
+/* //TOKEN */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+input {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1.2px;
+  outline: none;
+}
+
+#create-token {
+}
+.decimals {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  position: static;
+  width: 400px;
+  height: 48px;
+  background: #30343e;
+  box-shadow: 0px 0px 8px rgba(54, 65, 114, 0.1);
+  border-radius: 6px;
+  color: white;
+}
+.decimals-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px;
+  width: 167px;
+  height: 48px;
+  background: #195fea;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+.initialization-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px;
+  width: 286px;
+  height: 48px;
+  background: #195fea;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* //TAB CONTRAOL */
+/* .container {
+  display: flex;
+  position: sticky;
+  top: -1px;
+  z-index: 3;
+  border-radius: 16px;
+} */
+.container .wrapper {
+  background: transparent;
+  display: flex;
+  position: relative;
+  height: 50px;
+  overflow: auto;
+}
+.container .wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.menuItem {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  z-index: 2;
+  align-self: center;
+  line-height: 48px;
+  cursor: pointer;
+  padding: 0 25px;
+  text-align: center;
+  font-weight: 700;
+  transition: 100ms all ease-in;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.menuItem.selectedItem {
+  color: indigo;
+}
+.menuItem.selectedItem::after {
+  background: indigo;
+  width: auto;
+  margin: 0 28px;
+}
+.menuItem::after {
+  position: absolute;
+  display: block;
+  content: " ";
+  height: 3px;
+  left: 0;
+  bottom: -1px;
+  right: 0;
+  width: 100%;
+  border-radius: 12px;
+}
+
+@media (max-width: 467px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+@media (min-width: 475px) {
+  .hide-mobile-menu {
+    display: none;
+  }
+}
+
+/* //HOME SECTION */
+.home-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* //APP */
